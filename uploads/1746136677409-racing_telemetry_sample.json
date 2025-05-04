@@ -1,0 +1,223 @@
+{
+  "session": {
+    "sessionId": "S-2025-05-01-15-30-45",
+    "trackName": "Spa-Francorchamps",
+    "trackLayoutVariant": "GP",
+    "sessionType": "Race",
+    "sessionTime": 3600,
+    "weatherCondition": "Partly Cloudy",
+    "trackTemperature": 28.5,
+    "airTemperature": 24.2,
+    "humidity": 45,
+    "windSpeed": 8.3,
+    "windDirection": 225
+  },
+  "vehicle": {
+    "vehicleId": "McLaren_720S_GT3",
+    "driverName": "Test Driver",
+    "teamName": "Test Racing",
+    "carNumber": 42,
+    "class": "GT3"
+  },
+  "laps": [
+    {
+      "lapNumber": 1,
+      "lapTime": 138.542,
+      "sector1Time": 45.213,
+      "sector2Time": 52.106,
+      "sector3Time": 41.223,
+      "isValid": true,
+      "inLap": false,
+      "outLap": true,
+      "fuelConsumed": 1.75,
+      "tyrePressures": {
+        "frontLeft": 27.8,
+        "frontRight": 27.9,
+        "rearLeft": 27.3,
+        "rearRight": 27.4
+      },
+      "tyreTemperatures": {
+        "frontLeft": 78.3,
+        "frontRight": 79.6,
+        "rearLeft": 76.2,
+        "rearRight": 77.1
+      }
+    },
+    {
+      "lapNumber": 2,
+      "lapTime": 126.842,
+      "sector1Time": 40.122,
+      "sector2Time": 48.475,
+      "sector3Time": 38.245,
+      "isValid": true,
+      "inLap": false,
+      "outLap": false,
+      "fuelConsumed": 1.82,
+      "tyrePressures": {
+        "frontLeft": 28.3,
+        "frontRight": 28.5,
+        "rearLeft": 27.8,
+        "rearRight": 27.9
+      },
+      "tyreTemperatures": {
+        "frontLeft": 85.4,
+        "frontRight": 87.2,
+        "rearLeft": 83.1,
+        "rearRight": 83.9
+      }
+    }
+  ],
+  "telemetry": [
+    {
+      "timestamp": 1714662645.123,
+      "lapNumber": 1,
+      "distance": 0.0,
+      "speed": 0.0,
+      "gear": 0,
+      "rpm": 800,
+      "throttle": 0.0,
+      "brake": 1.0,
+      "steering": 0.0,
+      "lateralG": 0.0,
+      "longitudinalG": 0.0,
+      "verticalG": 1.0,
+      "position": {"x": 245.34, "y": 0.85, "z": -789.12}
+    },
+    {
+      "timestamp": 1714662645.223,
+      "lapNumber": 1,
+      "distance": 1.2,
+      "speed": 12.5,
+      "gear": 1,
+      "rpm": 4500,
+      "throttle": 0.8,
+      "brake": 0.0,
+      "steering": 0.05,
+      "lateralG": 0.1,
+      "longitudinalG": 0.7,
+      "verticalG": 1.0,
+      "position": {"x": 246.52, "y": 0.85, "z": -788.74}
+    },
+    {
+      "timestamp": 1714662645.323,
+      "lapNumber": 1,
+      "distance": 4.8,
+      "speed": 35.2,
+      "gear": 2,
+      "rpm": 6700,
+      "throttle": 1.0,
+      "brake": 0.0,
+      "steering": 0.07,
+      "lateralG": 0.2,
+      "longitudinalG": 0.8,
+      "verticalG": 1.0,
+      "position": {"x": 249.87, "y": 0.86, "z": -787.45}
+    },
+    {
+      "timestamp": 1714662656.123,
+      "lapNumber": 1,
+      "distance": 500.3,
+      "speed": 245.7,
+      "gear": 6,
+      "rpm": 7800,
+      "throttle": 1.0,
+      "brake": 0.0,
+      "steering": -0.12,
+      "lateralG": -1.2,
+      "longitudinalG": 0.2,
+      "verticalG": 1.05,
+      "position": {"x": 623.45, "y": 2.24, "z": -1245.78}
+    },
+    {
+      "timestamp": 1714662656.223,
+      "lapNumber": 1,
+      "distance": 514.8,
+      "speed": 210.4,
+      "gear": 5,
+      "rpm": 7200,
+      "throttle": 0.2,
+      "brake": 0.8,
+      "steering": -0.35,
+      "lateralG": -2.1,
+      "longitudinalG": -1.8,
+      "verticalG": 1.1,
+      "position": {"x": 634.21, "y": 2.18, "z": -1256.32}
+    }
+  ],
+  "setup": {
+    "aerodynamics": {
+      "frontWing": 6,
+      "rearWing": 8
+    },
+    "suspension": {
+      "frontRideHeight": 65.0,
+      "rearRideHeight": 75.0,
+      "frontAntiRollBar": 4,
+      "rearAntiRollBar": 3,
+      "frontSuspension": 5,
+      "rearSuspension": 6
+    },
+    "dampers": {
+      "frontBumpSlow": 8,
+      "frontReboundSlow": 9,
+      "rearBumpSlow": 7,
+      "rearReboundSlow": 8
+    },
+    "alignment": {
+      "frontCamber": -3.5,
+      "rearCamber": -2.5,
+      "frontToe": 0.10,
+      "rearToe": 0.20
+    },
+    "electronics": {
+      "tc1": 5,
+      "tc2": 6,
+      "abs": 4,
+      "ecuMap": 2,
+      "fuelMix": 3
+    },
+    "strategy": {
+      "fuelLoad": 85.0,
+      "tyrePressures": {
+        "frontLeft": 27.5,
+        "frontRight": 27.7,
+        "rearLeft": 27.0,
+        "rearRight": 27.2
+      },
+      "brakeBalance": 56.0,
+      "brakePressure": 82.0
+    }
+  },
+  "diagnostics": {
+    "peakValues": {
+      "maxSpeed": 275.4,
+      "maxRPM": 8100,
+      "maxLateralG": 2.4,
+      "maxLongitudinalG": {
+        "acceleration": 1.2,
+        "braking": -2.3
+      }
+    },
+    "engineStatus": {
+      "waterTemperature": 92.3,
+      "oilTemperature": 105.7,
+      "oilPressure": 4.8,
+      "fuelPressure": 5.2,
+      "engineWarnings": []
+    },
+    "tyreStatus": {
+      "wear": {
+        "frontLeft": 1.2,
+        "frontRight": 1.4,
+        "rearLeft": 0.9,
+        "rearRight": 1.1
+      },
+      "optimalWindow": {
+        "frontLeft": true,
+        "frontRight": true,
+        "rearLeft": true,
+        "rearRight": true
+      }
+    }
+  }
+}

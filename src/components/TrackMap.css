@@ -1,0 +1,62 @@
+.track-map-container {
+  margin: 2rem auto;
+  background-color: rgba(18, 18, 18, 0.8);
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: fit-content;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.track-map-svg {
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.error-point {
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.error-point:hover {
+  filter: brightness(1.2) drop-shadow(0 0 8px rgba(255, 255, 255, 0.4));
+}
+
+.track-map-error {
+  color: #ef476f;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background: rgba(239, 71, 111, 0.1);
+  border-radius: 6px;
+}
+
+.error-tooltip {
+  position: absolute;
+  background-color: rgba(20, 20, 20, 0.95);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  max-width: 250px;
+  z-index: 10;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  border-left: 3px solid #ef476f;
+  line-height: 1.4;
+}
+
+.error-tooltip strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.error-tooltip div {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.85rem;
+}
